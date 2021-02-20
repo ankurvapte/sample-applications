@@ -26,7 +26,6 @@ namespace inversion_of_control_unity
             Customer customer = container.Resolve<Customer>();
 
             customer.Add();
-            Console.WriteLine("This is a program highlighting DI IOC Unity");
             Console.ReadKey();
         }
 
