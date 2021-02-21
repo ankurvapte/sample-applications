@@ -26,6 +26,7 @@ namespace inversion_of_control_unity
             Customer customer = container.Resolve<Customer>();
 
             customer.Add();
+            Console.WriteLine("This is an example of Inversion of Control by Unity.");
             Console.ReadKey();
         }
 
