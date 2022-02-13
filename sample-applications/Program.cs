@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace sample_applications
 {
+    /* 
+     * This is a sample comment written to test commits and push
+     */
     class Program
     {
         static void Main(string[] args)
